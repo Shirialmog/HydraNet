@@ -29,10 +29,11 @@ HydraNet is a Unet based neural network, with one encoder and seven different de
 We trained HydraNet on 7 different target tasks from the medical domain. The goal was 
 to create an encoder that can be usef for transfer learning in the medical field, 
 for cases when data is scarce.
-<img src="accessory/HN_logic.PNG" alt="drawing" height="200" width="200"/>
+<br>
+<img src="accessory/HN_logic.PNG" alt="drawing" height="400" width="400"/>
 
 
-
+<p>
 The medical imaging field suffers from very limited labelled data which makes using 
 deep learning for segmentation challenging. In this project we wanted to investigate the 
 improvements transfer learning can offer to the research currently being done on 
@@ -45,11 +46,9 @@ Network architecture with one shared encoder and 7 task-related decoders
 (one for each task in our dataset), named HydraNet. Transfer learning from 
 the HydraNet encoder to our target data yielded a dice score of 0.7638 while 
 training from scratch yielded a dice score of 0.6687, an improvement of 14.22% 
-and a difference that has a great medical significance.
+and a difference that has a great medical significance. </p>
 
-
-<!-- More detail coming soon -->
-
+## More Detail Coming Soon.... 
 
 
 <!-- GETTING STARTED -->
