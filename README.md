@@ -30,7 +30,7 @@ We trained HydraNet on 7 different target tasks from the medical domain. The goa
 to create an encoder that can be usef for transfer learning in the medical field, 
 for cases when data is scarce.
 
-![method1](HN_logic.PNG)
+![method1](accessory/HN_logic.PNG)
 
 
 The medical imaging field suffers from very limited labelled data which makes using 
