@@ -6,7 +6,7 @@
 
   <p align="center">
     HydraNet is a segmentation neural network, 
-    based UNET architecture with 1 shared encoder and 7 decoders
+    based on the UNET architecture with 1 shared encoder and 7 decoders
     <br />
     Ayelet Talby,  Shiri Almog
    
@@ -27,7 +27,7 @@
 ## ABOUT
 HydraNet is a Unet based neural network, with one encoder and seven different decoders.
 We trained HydraNet on 7 different target tasks from the medical domain. The goal was 
-to create an encoder that can be usef for transfer learning in the medical field, 
+to create an encoder that can be used for transfer learning in the medical field, 
 for cases when data is scarce.
 <br>
 <img src="accessory/HN_logic.PNG" alt="drawing" height="400" width="500"/>
