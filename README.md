@@ -104,7 +104,7 @@ Use this script to perform transfer learning from the HydraNet.
 This script loads <b>HydraNet_final_weights.pt </b>, the final weights of the HydraNet model (<a href=https://github.com/Shirialmog/HydraNet/blob/master/HydraNet_final_weights.pt>Download here</a>).
 
 Again, accessory scripts CreateJsonTransfer.py and SettingsTransfer.py are used to
-create the required json files for teh experiment. 
+create the required json files for the experiment. 
 
 
  
