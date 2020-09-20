@@ -23,7 +23,6 @@ def create_json(father_folder_path, exp_start_ind=0):
                     json_data = {}
 
                     # dataset settings
-
                     json_data['dataset_settings'] = {'definition_file_dir': father_folder_path,
                                                    'data_dir_lits': father_folder_path +'\Lits',
                                                     'data_dir_prostate': father_folder_path + '\Prostate',
@@ -32,7 +31,6 @@ def create_json(father_folder_path, exp_start_ind=0):
                                                      'data_dir_spleen': father_folder_path + '\Spleen',
                                                      'data_dir_pancreas': father_folder_path + '\Pancreas',
                                                      'data_dir_left_atrial': father_folder_path + '\Left Atrial',
-                                                     #'data_dir_hippocampus': father_folder_path + '\Hippocampus',
                                                      }
 
                     # pre processing settings
