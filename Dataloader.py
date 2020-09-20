@@ -1,6 +1,7 @@
 from torch.utils.data import Dataset
 import torch
 import numpy as np
+import matplotlib
 from torchvision import transforms
 
 class CoronaDatasetTrain(Dataset):
