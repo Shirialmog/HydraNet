@@ -31,7 +31,7 @@ class SegSettings(object):
         self.data_dir_spleen = settings_dict['dataset_settings']['data_dir_spleen']
         self.data_dir_pancreas = settings_dict['dataset_settings']['data_dir_pancreas']
         self.data_dir_left_atrial = settings_dict['dataset_settings']['data_dir_left_atrial']
-        
+
         self.load_masks = True
 
         # pre processing settings
