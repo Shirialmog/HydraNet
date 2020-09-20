@@ -19,7 +19,7 @@ the following code is to define the model settings from a dictionary of settings
 
 class SegSettings(object):
     """
-    this class is to define the Hydra project settings
+    this class defines the Hydra project settings
     """
     def __init__(self, settings_dict, write_logger):
         # dataset settings
@@ -31,11 +31,8 @@ class SegSettings(object):
         self.data_dir_spleen = settings_dict['dataset_settings']['data_dir_spleen']
         self.data_dir_pancreas = settings_dict['dataset_settings']['data_dir_pancreas']
         self.data_dir_left_atrial = settings_dict['dataset_settings']['data_dir_left_atrial']
-        #self.data_dir_hippocampus = settings_dict['dataset_settings']['data_dir_hippocampus']
-
 
         self.load_masks = True
-        # self.organ_to_seg = settings_dict['dataset_settings']['organ_to_seg']
 
         # pre processing settings
         self.pre_process = settings_dict['pre_processing_settings']['pre_process']

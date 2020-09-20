@@ -272,7 +272,7 @@ def train(setting_dict):
                            activation=settings.activation)
     model.cuda(1)
     model = model.double()
-    criterion = nn.CrossEntropyLoss() #smp.utils.losses.DiceLoss() # smp_DiceLoss()#
+    criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=settings.initial_learning_rate)
 
     # Initialize 'data_dic', nested dictionary, will contain all losses and dice for all organs
