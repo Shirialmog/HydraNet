@@ -35,6 +35,7 @@ We trained HydraNet on 7 different medical target tasks, of both CT and MRI. The
 to create an encoder that can be used for transfer learning in the medical field, 
 for cases when data is scarce.
 <br>
+Ayelet Talby, Shiri Almog
 <img src="accessory/HN_logic.PNG" alt="drawing" height="400" width="500"/>
 
 
@@ -112,9 +113,9 @@ create the required json files for the experiment.
 <!-- CONTACT -->
 ## Contact
 
-For more informations or questions regarding the code, send us an email at: 
+For more information or questions regarding the code, send us an email at: 
 
-Ayeley Talby - ayelettalby@gmail.com
+Ayelet Talby - ayelettalby@gmail.com
 
 Shiri Almog - shirialmog1@gmail.com
 
