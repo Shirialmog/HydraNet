@@ -21,9 +21,11 @@
 ## Table of Contents
 
 * [About](#ABOUT)
-* [Datasets](#built-with)
-* [Transfer](#built-with)
-* [Contact](#contact)
+* [Datasets](#Datasets)
+* [Training](#Training)
+* [Transfer](#Transfer)
+* [Installation](#Installation)
+* [Contact](#Contact)
 
 <!-- ABOUT  -->
 ## ABOUT
@@ -83,23 +85,23 @@ $ pip install segmentation-models-pytorch
 ```
 
 ### Training
-####HydraNet_Main.py
+#### HydraNet_Main.py
 <p> This is the main script for training the network. It includes the pre-processing functions,
 the training loop and the loss calculation functions</p>
 
-####CreateJson.py and SegmentationSettings.py 
+#### CreateJson.py and SegmentationSettings.py 
 These scripts were used to create json files containing all the relevant information 
 for the current experiment. Adjust your settings in the CreateJson script, and then run it
 to produce the desired json file.
 In the HydraNet_Main, insert your new json path. 
 
-####Models.py
+#### Models.py
 The architecture of the network 
 
-###Transfer
-####Transfer.py
+### Transfer
+#### Transfer.py
 Use this script to perform transfer learning from the HydraNet. 
-This script loads <b>HydraNet_final_weights.pt </b>, the final weights of the HydraNet model (Download here).
+This script loads <b>HydraNet_final_weights.pt </b>, the final weights of the HydraNet model (<a href=https://github.com/Shirialmog/HydraNet/blob/master/HydraNet_final_weights.pt>Download here</a>).
 
 Again, accessory scripts CreateJsonTransfer.py and SettingsTransfer.py are used to
 create the required json files for teh experiment. 
