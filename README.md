@@ -11,7 +11,7 @@
     different organs with 1 shared encoder and 7 decoders.
     The final weights are available for download, as well as the code for transfer. 
     <br />
-    Ayelet Talby,  Shiri Almog
+    Authors: Ayelet Talby,  Shiri Almog
    
   </p>
 
@@ -35,7 +35,6 @@ We trained HydraNet on 7 different medical target tasks, of both CT and MRI. The
 to create an encoder that can be used for transfer learning in the medical field, 
 for cases when data is scarce.
 <br>
-Ayelet Talby, Shiri Almog
 <img src="accessory/HN_logic.PNG" alt="drawing" height="400" width="500"/>
 
 
