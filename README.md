@@ -9,6 +9,7 @@
     base for transfer learning to other medical target datasets.
     The network is based on the UNET architecture and was trained on 7 
     different organs with 1 shared encoder and 7 decoders.
+    The final weights are available for download, as well as the code for transfer. 
     <br />
     Ayelet Talby,  Shiri Almog
    
@@ -104,7 +105,7 @@ Use this script to perform transfer learning from the HydraNet.
 This script loads <b>HydraNet_final_weights.pt </b>, the final weights of the HydraNet model (<a href=https://github.com/Shirialmog/HydraNet/blob/master/HydraNet_final_weights.pt>Download here</a>).
 
 Again, accessory scripts CreateJsonTransfer.py and SettingsTransfer.py are used to
-create the required json files for teh experiment. 
+create the required json files for the experiment. 
 
 
  
